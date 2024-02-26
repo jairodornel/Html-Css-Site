@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+}
+
+body{ 
+     
+    margin: 0; 
+}
+
+.navbar{ 
+    display: flex;
+    flex-flow: row wrap; 
+    height: 100px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    
+
+}
+
+.logo{
+
+    flex: 20%;
+    text-align: center;
+    margin-left: 10%;
+
+}
+
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+    color: #038BB1;
+
+}
+.menu a:hover{
+    border-top: 4px solid black;
+}
+
+#botao{
+     background-color: #038BB1;
+     padding: 10px 25px;
+     color: white;
+     border-radius: 5px;
+     margin-right: 10%;
+     margin-left: 5%;
+
+
+
+}
+
+#botao:hover{
+    background-color:#707B7F ;
+    border: none;
+}
+
+
+.header{
+
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 240px;
+    
+
+    background-color: white;
+
+}
+
+.content{
+
+    margin-left: 10%;
+    flex: 40%; 
+ 
+}
+
+.img{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+img{
+    border-radius: 20px;
+
+}
+
+.content h2{
+
+    color: #038BB1;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+.content p{
+    text-align: left;
+}
+
+.botao{
+
+    background: #707B7F; 
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 16px 25px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.botao:hover{
+
+    background-color: #038BB1;
+}
+
+section{
+
+    margin-top: 110px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    text-align: center;
+    padding: 5%;
+    width: 90%;
+
+}
+
+section h2{
+    width: 100%;
+    font-size: 46px;
+    margin: 0;
+    font-weight: bold;
+    color: #707B7F;
+}
+
+.sevicos{
+    display: inline-block;
+    margin-top: 5%;
+
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    cursor: pointer;
+    margin-top: 55px;
+}
+
+.card:hover{
+    background: #038BB1;
+    padding: 40px;
+    color: white;
+    border-radius: 10px;
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover h3{
+    color: white; 
+}
+
+.card:hover .cart-text{
+    display: none;
+}
+
+.card:hover .texto-oculto{
+    display: block;
+}
+
+section h3{
+
+    color: #038BB1;
+}
+
+.texto-oculto{
+
+    display: none;
+}
+
+footer{
+    margin-top: 110px;
+    height: 400px;
+    background: #707B7F;
+    text-align: center;
+    border-top: 5px solid  #038BB1;
+}
+
+
+
+
+.logo-rodape{
+    padding: 100px;
+}
